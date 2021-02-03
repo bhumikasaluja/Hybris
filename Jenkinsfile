@@ -129,6 +129,7 @@ spec:
 				fi
 				exit */
 				}
+			}
 			
 			stage('Security Test') {
 				steps {
@@ -137,7 +138,7 @@ spec:
 			}
 		}
 	}    
-  
+    }
   post {
         failure {
             /*mail bcc: '', 
